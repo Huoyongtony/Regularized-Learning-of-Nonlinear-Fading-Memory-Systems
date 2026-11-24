@@ -1,0 +1,5 @@
+# Versions used to verify the Python reproduction scripts.
+numpy==1.26.4
+scipy==1.17.1
+matplotlib==3.10.8
+numba==0.66.0

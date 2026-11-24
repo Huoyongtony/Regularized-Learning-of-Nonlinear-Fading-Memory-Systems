@@ -1,0 +1,932 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{van_waarde_kernel-based_2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=48cac77453cee1f62564fd0e772e9773}{%
+           family={Waarde},
+           familyi={W\bibinitperiod},
+           given={Henk\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=0dfd29560d972684e45872242d7ebfb8}{%
+           family={Sepulchre},
+           familyi={S\bibinitperiod},
+           given={Rodolphe},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{fullhash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{fullhashraw}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{bibnamehash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{authorbibnamehash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{authornamehash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{authorfullhash}{c151aedfba70d43df678cdb1091dd9f4}
+      \strng{authorfullhashraw}{c151aedfba70d43df678cdb1091dd9f4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article introduces a computational framework to identify nonlinear input–output operators that fit a set of system trajectories while satisfying incremental integral quadratic constraints. The data fitting algorithm is thus regularized by suitable input–output properties required for system analysis and control design. This biased identification problem is shown to admit the tractable solution of a regularized least squares problem when formulated in a suitable reproducing kernel Hilbert space. The kernel-based framework is a departure from the prevailing state-space framework. It is motivated by fundamental limitations of nonlinear state-space models at combining the fitting requirements of data-based modeling with the input–output requirements of system analysis and physical modeling.}
+      \field{issn}{1558-2523}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{month}{9}
+      \field{note}{Conference Name: IEEE Transactions on Automatic Control}
+      \field{number}{9}
+      \field{title}{Kernel-{Based} {Models} for {System} {Analysis}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{68}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{5317\bibrangedash 5332}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1109/TAC.2022.3218944
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9935290
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9935290
+      \endverb
+      \keyw{Analytical models,Control design,Hilbert space,Identification for control,Kernel,Machine learning,System analysis and design,Trajectory,machine learning,modeling,nonlinear systems,system identification}
+    \endentry
+    \entry{sepulchre_spiking_2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0dfd29560d972684e45872242d7ebfb8}{%
+           family={Sepulchre},
+           familyi={S\bibinitperiod},
+           given={Rodolphe},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{fullhash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{fullhashraw}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{bibnamehash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{authorbibnamehash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{authornamehash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{authorfullhash}{0dfd29560d972684e45872242d7ebfb8}
+      \strng{authorfullhashraw}{0dfd29560d972684e45872242d7ebfb8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spikes and rhythms organize control and communication in the animal world, in contrast to the bits and clocks of digital technology. As continuous-time signals that can be counted, spikes have a mixed nature. This article reviews ongoing efforts to develop a control theory of spiking systems. The central thesis is that the mixed nature of spiking results from a mixed feedback principle, and a control theory of mixed feedback can be grounded in the operator theoretic concept of maximal monotonicity. As a nonlinear generalization of passivity, maximal monotonicity acknowledges at once the physics of electrical circuits, the algorithmic tractability of convex optimization, and the feedback control theory of incremental passivity. We discuss the relevance of a theory of spiking control systems in the emerging age of event-based technology.}
+      \field{issn}{1558-2256}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Spiking {Control} {Systems}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{110}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{577\bibrangedash 589}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/JPROC.2022.3163926
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9764708
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9764708
+      \endverb
+      \keyw{Automata,Biological system modeling,Control systems,Control theory,Convex functions,Event-based control,Integrated circuit modeling,Resistors,feedback control,neuroscience,passive and active electrical circuits}
+    \endentry
+    \entry{hodgkin_quantitative_1952}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f245ea6325fec5c9f96ceebb69626059}{%
+           family={Hodgkin},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7fdcc730bf64349a6b5d7abd25ae9402}{%
+           family={Huxley},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{fullhash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{fullhashraw}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{bibnamehash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{authorbibnamehash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{authornamehash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{authorfullhash}{7d285c84e0578b90c81d7194bbb4059c}
+      \strng{authorfullhashraw}{7d285c84e0578b90c81d7194bbb4059c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-3751}
+      \field{journaltitle}{The Journal of Physiology}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{A quantitative description of membrane current and its application to conduction and excitation in nerve}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{117}
+      \field{year}{1952}
+      \field{urldateera}{ce}
+      \field{pages}{500\bibrangedash 544}
+      \range{pages}{45}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/
+      \endverb
+    \endentry
+    \entry{boyd_fading_1985}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fdb760b740da8a080df12615e128118d}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=63e0785bf72df205130a6325c329c6ba}{%
+           family={Chua},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{fullhash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{fullhashraw}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{bibnamehash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{authorbibnamehash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{authornamehash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{authorfullhash}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \strng{authorfullhashraw}{884c6b558be5ddc1e3bc43f85df0aad3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0098-4094}
+      \field{journaltitle}{IEEE Transactions on Circuits and Systems}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Fading memory and the problem of approximating nonlinear operators with {Volterra} series}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{32}
+      \field{year}{1985}
+      \field{urldateera}{ce}
+      \field{pages}{1150\bibrangedash 1161}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/TCS.1985.1085649
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/1085649/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1085649/
+      \endverb
+    \endentry
+    \entry{shamma_fading-memory_1993}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b053fd262aa960d62554a7b0770a8f69}{%
+           family={Shamma},
+           familyi={S\bibinitperiod},
+           given={Jeff\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=37263f9ee76141f85f65c1bbe863e84a}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Rongze},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{fullhash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{fullhashraw}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{bibnamehash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{authorbibnamehash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{authornamehash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{authorfullhash}{5ad4ed42d3540b18ae8713cb123684e5}
+      \strng{authorfullhashraw}{5ad4ed42d3540b18ae8713cb123684e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper considers fading memory for nonlinear time-varying systems and associated problems of robust stability. We define two notions of fading memory for stable dynamical systems: uniform and pointwise. We then provide conditions under which stable linear or nonlinear systems exhibit uniform or pointwise fading memory. In particular, we show that (1) all stable discrete-time linear time-varying (LTV) systems have uniform fading-memory, (2) all stable continuous-time LTV systems have pointwise fading-memory, and (3) stable finite-dimensional continuous-time LTV systems have uniform fading-memory. We then show that a version of the small gain theorem which employs the asymptotic gain of a fading-memory system is necessary for the stable invertibility of certain feedback operators. These results are presented for both continuous-time and discrete-time systems using general ℓp or Lp notions of input/output stability and generalize existing results for ℓ2 stability. We further investigate fading memory in a closed-loop context. For linear plants, we parametrize all nonlinear controllers which lead to closed-loop pointwise fading memory.}
+      \field{issn}{0005-1098}
+      \field{journaltitle}{Automatica}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Fading-memory feedback systems and robust stability}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{29}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{191\bibrangedash 200}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0005-1098(93)90182-S
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/000510989390182S
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/000510989390182S
+      \endverb
+      \keyw{Nonlinear systems,robust control,robustness,system theory,time-varying systems}
+    \endentry
+    \entry{Sandberg1994}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e67426e71a552a6f5a0cafd4bf719722}{%
+           family={Sandberg},
+           familyi={S\bibinitperiod},
+           given={I.W.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{fullhash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{fullhashraw}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{bibnamehash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{authorbibnamehash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{authornamehash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{authorfullhash}{e67426e71a552a6f5a0cafd4bf719722}
+      \strng{authorfullhashraw}{e67426e71a552a6f5a0cafd4bf719722}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In recent work a complete characterization has been given of those input-output maps G that can be uniformly approximated by the maps of certain simple structures. The criterion is that G must satisfy certain continuity and approximately finite memory conditions. It is proved here that the conditions are satisfied by the input-output maps of feedback systems of a familiar type containing a (possibly distributed) linear part and a sector nonlinearity for which the circle condition for stability is met. In particular, this shows that such feedback systems, with inputs drawn from a certain large set of bounded functions, can be input-output approximated arbitrarily well by a structure that takes the form of a feedforward dynamical neural network.{$<>$}}
+      \field{eventtitle}{{{IEEE Transactions}} on {{Circuits}} and {{Systems I}}: {{Fundamental Theory}} and {{Applications}}}
+      \field{issn}{1558-1268}
+      \field{journaltitle}{IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications}
+      \field{month}{7}
+      \field{number}{7}
+      \field{title}{Approximately Finite Memory and the Circle Criterion}
+      \field{volume}{41}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{473\bibrangedash 476}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/81.298359
+      \endverb
+      \verb{file}
+      \verb /Users/tlc37/Dropbox (Cambridge University)/Zotero attachments/Sandberg1994/Sandberg1994.pdf;/Users/tlc37/Zotero/storage/SSZXZA9X/298359.html
+      \endverb
+      \keyw{Communication channels,Equalizers,Extrapolation,Feedforward neural networks,Network synthesis,Neural networks,Neurofeedback,Nonlinear distortion,Nonlinear systems,Stability}
+    \endentry
+    \entry{matthews_identification_1994}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=297ab5b36c8291c8634521accdcb9fb5}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={M.B.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=31cb98dd9da0ff312c8adc01b3aaa8e4}{%
+           family={Moschytz},
+           familyi={M\bibinitperiod},
+           given={G.S.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{fullhash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{fullhashraw}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{bibnamehash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{authorbibnamehash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{authornamehash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{authorfullhash}{dce8e144d471abc3d326c0bc72d453cd}
+      \strng{authorfullhashraw}{dce8e144d471abc3d326c0bc72d453cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A fading-memory system is a system that tends to forget its input asymptotically over time. It has been shown that discrete-time fading-memory systems can be uniformly approximated arbitrarily closely over a set of bounded input sequences simply by uniformly approximating sufficiently closely either the external or internal representation of the system. In other words, the problem of uniformly approximating a fading-memory system reduces to the problem of uniformly approximating continuous real-valued functions on compact sets. The perceptron is a parametric model that realizes a set of continuous real-valued functions that is uniformly dense in the set of all continuous real-valued functions. Using the perceptron to uniformly approximate the external and internal representations of a discrete-time fading-memory system results, respectively, in simple finite-memory and infinite-memory parametric system models. Algorithms for estimating the model parameters that yield a best approximation to a given fading-memory system are discussed. An application to nonlinear noise cancellation in telephone systems is presented.{<}{>}}
+      \field{issn}{1558-125X}
+      \field{journaltitle}{IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing}
+      \field{month}{11}
+      \field{note}{Conference Name: IEEE Transactions on Circuits and Systems II: Analog and Digital Signal Processing}
+      \field{number}{11}
+      \field{title}{The identification of nonlinear discrete-time fading-memory systems using neural network models}
+      \field{volume}{41}
+      \field{year}{1994}
+      \field{pages}{740\bibrangedash 751}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/82.331544
+      \endverb
+      \keyw{Approximation algorithms,Echo cancellers,Mathematical model,Neural networks,Noise cancellation,Parameter estimation,Parametric statistics,Predictive models,Telephony,Yield estimation}
+    \endentry
+    \entry{maass_neural_2000}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1b7071d23a59fcc869863e969ca2e992}{%
+           family={Maass},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b489ffe81047ba610bb1893dded4075f}{%
+           family={Sontag},
+           familyi={S\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{fullhash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{fullhashraw}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{bibnamehash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{authorbibnamehash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{authornamehash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{authorfullhash}{9b792ace35c9be67ab32307e3deac44b}
+      \strng{authorfullhashraw}{9b792ace35c9be67ab32307e3deac44b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Experimental data show that biological synapses behave quite differently from the symbolic synapses in all common artificial neural network models. Biological synapses are dynamic; their "weight" changes on a short timescale by several hundred percent in dependence of the past input to the synapse. In this article we address the question how this inherent synaptic dynamics (which should not be confused with long term learning) affects the computational power of a neural network. In particular, we analyze computations on temporal and spatiotemporal patterns, and we give a complete mathematical characterization of all filters that can be approximated by feedforward neural networks with dynamic synapses. It turns out that even with just a single hidden layer, such networks can approximate a very rich class of nonlinear filters: all filters that can be characterized by Volterra series. This result is robust with regard to various changes in the model for synaptic dynamics. Our characterization result provides for all nonlinear filters that are approximable by Volterra series a new complexity hierarchy related to the cost of implementing such filters in neural systems.}
+      \field{journaltitle}{Neural Computation}
+      \field{month}{5}
+      \field{title}{Neural {Systems} as {Nonlinear} {Filters}}
+      \field{volume}{12}
+      \field{year}{2000}
+      \verb{doi}
+      \verb 10.1162/089976600300015123
+      \endverb
+    \endentry
+    \entry{maass_computational_2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1b7071d23a59fcc869863e969ca2e992}{%
+           family={Maass},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=96734e7ca80390b8caf8dcebb3d0a5ac}{%
+           family={Markram},
+           familyi={M\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{37623344f651f5adb44d8c0550b67857}
+      \strng{fullhash}{37623344f651f5adb44d8c0550b67857}
+      \strng{fullhashraw}{37623344f651f5adb44d8c0550b67857}
+      \strng{bibnamehash}{37623344f651f5adb44d8c0550b67857}
+      \strng{authorbibnamehash}{37623344f651f5adb44d8c0550b67857}
+      \strng{authornamehash}{37623344f651f5adb44d8c0550b67857}
+      \strng{authorfullhash}{37623344f651f5adb44d8c0550b67857}
+      \strng{authorfullhashraw}{37623344f651f5adb44d8c0550b67857}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Complex real-time computations on multi-modal time-varying input streams are carried out by generic cortical microcircuits. Obstacles for the development of adequate theoretical models that could explain the seemingly universal power of cortical microcircuits for real-time computing are the complexity and diversity of their computational units (neurons and synapses), as well as the traditional emphasis on offline computing in almost all theoretical approaches towards neural computation. In this article, we initiate a rigorous mathematical analysis of the real-time computing capabilities of a new generation of models for neural computation, liquid state machines, that can be implemented with—in fact benefit from—diverse computational units. Hence, realistic models for cortical microcircuits represent special instances of such liquid state machines, without any need to simplify or homogenize their diverse computational units. We present proofs of two theorems about the potential computational power of such models for real-time computing, both on analog input streams and for spike trains as inputs.}
+      \field{issn}{0022-0000}
+      \field{journaltitle}{Journal of Computer and System Sciences}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{On the computational power of circuits of spiking neurons}
+      \field{urlday}{27}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{69}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{593\bibrangedash 616}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.jcss.2004.04.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022000004000406
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022000004000406
+      \endverb
+    \endentry
+    \entry{grigoryeva_echo_2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ce4d732e6f75f77bd4e613b2a01a7ae5}{%
+           family={Grigoryeva},
+           familyi={G\bibinitperiod},
+           given={Lyudmila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=03135b0e2b87fd267cad51011c9d4236}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Juan-Pablo},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{fullhash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{fullhashraw}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{bibnamehash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{authorbibnamehash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{authornamehash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{authorfullhash}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \strng{authorfullhashraw}{31b60f6eb46d988efcfae5cbd2eaa5de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper shows that echo state networks are universal uniform approximants in the context of discretetime fading memory filters with uniformly bounded inputs defined on negative infinite times. This result guarantees that any fading memory input/output system in discrete time can be realized as a simple finitedimensional neural network-type state-space model with a static linear readout map. This approximation is valid for infinite time intervals. The proof of this statement is based on fundamental results, also presented in this work, about the topological nature of the fading memory property and about reservoir computing systems generated by continuous reservoir maps.}
+      \field{issn}{08936080}
+      \field{journaltitle}{Neural Networks}
+      \field{month}{12}
+      \field{title}{Echo state networks are universal}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{108}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{495\bibrangedash 508}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.neunet.2018.08.025
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S089360801830251X
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S089360801830251X
+      \endverb
+      \keyw{echoNetwork}
+    \endentry
+    \entry{paulsen_introduction_2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=56615d367b57252782969008be14c358}{%
+           family={Paulsen},
+           familyi={P\bibinitperiod},
+           given={Vern\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=4b56d49e3d9b641fe3b89671ab4d14b1}{%
+           family={Raghupathi},
+           familyi={R\bibinitperiod},
+           given={Mrinal},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{fullhash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{fullhashraw}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{bibnamehash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{authorbibnamehash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{authornamehash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{authorfullhash}{2100f2dbf09d7ddd50090b963ce7f749}
+      \strng{authorfullhashraw}{2100f2dbf09d7ddd50090b963ce7f749}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reproducing kernel Hilbert spaces have developed into an important tool in many areas, especially statistics and machine learning, and they play a valuable role in complex analysis, probability, group representation theory, and the theory of integral operators. This unique text offers a unified overview of the topic, providing detailed examples of applications, as well as covering the fundamental underlying theory, including chapters on interpolation and approximation, Cholesky and Schur operations on kernels, and vector-valued spaces. Self-contained and accessibly written, with exercises at the end of each chapter, this unrivalled treatment of the topic serves as an ideal introduction for graduate students across mathematics, computer science, and engineering, as well as a useful reference for researchers working in functional analysis or its applications.}
+      \field{isbn}{978-1-107-10409-9}
+      \field{series}{Cambridge {Studies} in {Advanced} {Mathematics}}
+      \field{title}{An {Introduction} to the {Theory} of {Reproducing} {Kernel} {Hilbert} {Spaces}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1017/CBO9781316219232
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/books/an-introduction-to-the-theory-of-reproducing-kernel-hilbert-spaces/C3FD9DF5F5C21693DD4ED812B531269A
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/books/an-introduction-to-the-theory-of-reproducing-kernel-hilbert-spaces/C3FD9DF5F5C21693DD4ED812B531269A
+      \endverb
+    \endentry
+    \entry{Gonon2022}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=5fe106da0d55b74c141e63e708b23ec2}{%
+           family={Gonon},
+           familyi={G\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ce4d732e6f75f77bd4e613b2a01a7ae5}{%
+           family={Grigoryeva},
+           familyi={G\bibinitperiod},
+           given={Lyudmila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=03135b0e2b87fd267cad51011c9d4236}{%
+           family={Ortega},
+           familyi={O\bibinitperiod},
+           given={Juan-Pablo},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{fullhash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{fullhashraw}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{bibnamehash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{authorbibnamehash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{authornamehash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{authorfullhash}{f82310503ade4f7fe6584e50d2afe671}
+      \strng{authorfullhashraw}{f82310503ade4f7fe6584e50d2afe671}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A universal kernel is constructed whose sections approximate any causal and time-invariant filter in the fading memory category with inputs and outputs in a finite-dimensional Euclidean space. This kernel is built using the reservoir functional associated with a state-space representation of the Volterra series expansion available for any analytic fading memory filter. It is hence called the Volterra reservoir kernel. Even though the statespace representation and the corresponding reservoir feature map are defined on an infinite-dimensional tensor algebra space, the kernel map is characterized by explicit recursions that are readily computable for specific data sets when employed in estimation problems using the representer theorem. We showcase the performance of the Volterra reservoir kernel in a popular data science application in relation to bitcoin price prediction.}
+      \field{day}{30}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{arXiv:2212.14641}
+      \field{pubstate}{preprint}
+      \field{title}{Reservoir Kernels and {{Volterra}} Series}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb arXiv:2212.14641
+      \endverb
+      \verb{file}
+      \verb /Users/tlc37/Zotero/storage/GVQABHHH/Gonon et al. - 2022 - Reservoir kernels and Volterra series.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2212.14641
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2212.14641
+      \endverb
+      \keyw{Computer Science - Machine Learning}
+    \endentry
+    \entry{christmann_universal_2010}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=c91468862b55209b860caf7280039ce1}{%
+           family={Christmann},
+           familyi={C\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1f7c81e5506fdab760978a8fb50f27a6}{%
+           family={Steinwart},
+           familyi={S\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{fullhash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{fullhashraw}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{bibnamehash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{authorbibnamehash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{authornamehash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{authorfullhash}{16d648bc6a8787cc69ac3c4566b195ef}
+      \strng{authorfullhashraw}{16d648bc6a8787cc69ac3c4566b195ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in {Neural} {Information} {Processing} {Systems}}
+      \field{title}{Universal {Kernels} on {Non}-{Standard} {Input} {Spaces}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://papers.nips.cc/paper/2010/hash/4e0cb6fb5fb446d1c92ede2ed8780188-Abstract.html
+      \endverb
+      \verb{url}
+      \verb https://papers.nips.cc/paper/2010/hash/4e0cb6fb5fb446d1c92ede2ed8780188-Abstract.html
+      \endverb
+    \endentry
+    \entry{micchelli_learning_2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fb6ee766f52c5588c5cabd6e48ab480e}{%
+           family={Micchelli},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8b5942a7f10e47d565321b3dce4730d3}{%
+           family={Pontil},
+           familyi={P\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{fullhash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{fullhashraw}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{bibnamehash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{authorbibnamehash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{authornamehash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{authorfullhash}{b72ae0bd54af9bc9118f989d91c51425}
+      \strng{authorfullhashraw}{b72ae0bd54af9bc9118f989d91c51425}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we provide a study of learning in a Hilbert space of vector−valued functions. We motivate the need for extending learning theory of scalar−valued functions by practical considerations and establish some basic results for learning vector−valued functions which should prove useful in applications. Speciﬁcally, we allow an output space Y to be a Hilbert space and we consider a reproducing kernel Hilbert space of functions whose values lie in Y. In this setting, we derive the form of the minimal norm interpolant to a ﬁnite set of data and apply it to study some regularization functionals which are important in learning theory. We consider speciﬁc examples of such functionals corresponding to multiple−output regularization networks and support vector machines, both for regression and classiﬁcation. Finally, we provide classes of operator−valued kernels of the dot product and translation invariant type.}
+      \field{issn}{0899-7667, 1530-888X}
+      \field{journaltitle}{Neural Computation}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{On {Learning} {Vector}-{Valued} {Functions}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{17}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{177\bibrangedash 204}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1162/0899766052530802
+      \endverb
+      \verb{urlraw}
+      \verb https://direct.mit.edu/neco/article/17/1/177-204/6909
+      \endverb
+      \verb{url}
+      \verb https://direct.mit.edu/neco/article/17/1/177-204/6909
+      \endverb
+    \endentry
+    \entry{caponnetto_universal_2008}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=62046847d21ed822220f9acbe1c2f244}{%
+           family={Caponnetto},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb6ee766f52c5588c5cabd6e48ab480e}{%
+           family={Micchelli},
+           familyi={M\bibinitperiod},
+           given={Charles\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=8b5942a7f10e47d565321b3dce4730d3}{%
+           family={Pontil},
+           familyi={P\bibinitperiod},
+           given={Massimiliano},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29226eee0fda9df2cd64fe0eeb7049ab}{%
+           family={Ying},
+           familyi={Y\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{543fbc1e7415ff045c43a8638d125547}
+      \strng{fullhash}{f5839644f5fa0040647a464d71196df8}
+      \strng{fullhashraw}{f5839644f5fa0040647a464d71196df8}
+      \strng{bibnamehash}{543fbc1e7415ff045c43a8638d125547}
+      \strng{authorbibnamehash}{543fbc1e7415ff045c43a8638d125547}
+      \strng{authornamehash}{543fbc1e7415ff045c43a8638d125547}
+      \strng{authorfullhash}{f5839644f5fa0040647a464d71196df8}
+      \strng{authorfullhashraw}{f5839644f5fa0040647a464d71196df8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper we are concerned with reproducing kernel Hilbert spaces HK of functions from an input space into a Hilbert space Y, an environment appropriate for multi-task learning. The reproducing kernel K associated to HK has its values as operators on Y. Our primary goal here is to derive conditions which ensure that the kernel K is universal. This means that on every compact subset of the input space, every continuous function with values in Y can be uniformly approximated by sections of the kernel. We provide various characterizations of universal kernels and highlight them with several concrete examples of some practical importance. Our analysis uses basic principles of functional analysis and especially the useful notion of vector measures which we describe in sufficient detail to clarify our results.}
+      \field{issn}{1533-7928}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{52}
+      \field{title}{Universal {Multi}-{Task} {Kernels}}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2023}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{1615\bibrangedash 1646}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v9/caponnetto08a.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v9/caponnetto08a.html
+      \endverb
+    \endentry
+    \entry{sepulchre_incremental_2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0dfd29560d972684e45872242d7ebfb8}{%
+           family={Sepulchre},
+           familyi={S\bibinitperiod},
+           given={Rodolphe},
+           giveni={R\bibinitperiod}}}%
+        {{hash=66677975c45783e2c9b1cc87bd9dd409}{%
+           family={Chaffey},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=42d96f0ab005edb368084794a906e096}{%
+           family={Forni},
+           familyi={F\bibinitperiod},
+           given={Fulvio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{fullhash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{fullhashraw}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{bibnamehash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{authorbibnamehash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{authornamehash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{authorfullhash}{1fe27fe2462f6392663ab035b8216a40}
+      \strng{authorfullhashraw}{1fe27fe2462f6392663ab035b8216a40}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Following the seminal work of Zames, the input-output theory of the 70s acknowledged that incremental properties (e.g. incremental gain) are the relevant quantities to study in nonlinear feedback system analysis. Yet, non-incremental analysis has dominated the use of dissipativity theory in nonlinear control from the 80s. Results connecting dissipativity theory and incremental analysis are scattered and progress has been limited. This abstract investigates whether this theoretical gap is of fundamental nature and considers new avenues to circumvent it.}
+      \field{issn}{2405-8963}
+      \field{journaltitle}{IFAC-PapersOnLine}
+      \field{month}{1}
+      \field{number}{30}
+      \field{series}{25th {International} {Symposium} on {Mathematical} {Theory} of {Networks} and {Systems} {MTNS} 2022}
+      \field{title}{On the incremental form of dissipativity}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{55}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{290\bibrangedash 294}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.ifacol.2022.11.067
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405896322027008
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2405896322027008
+      \endverb
+      \keyw{circuit theory,contraction,incremental dissipativity,incremental passivity,monotonicity,passivity}
+    \endentry
+    \entry{anderson_small-gain_1972}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c4907fba3bcfe2b7d872b2844ac97bf}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={B.\bibnamedelimi D.\bibnamedelimi O.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{fullhash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{fullhashraw}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{bibnamehash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{authorbibnamehash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{authornamehash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{authorfullhash}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \strng{authorfullhashraw}{9c4907fba3bcfe2b7d872b2844ac97bf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Two small-gain theorems and a passivity theorem yielding stability results for general feedback systems are shown to be equivalent.}
+      \field{issn}{0016-0032}
+      \field{journaltitle}{Journal of the Franklin Institute}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{The small-gain theorem, the passivity theorem and their equivalence}
+      \field{urlday}{5}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{volume}{293}
+      \field{year}{1972}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 115}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/0016-0032(72)90150-0
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0016003272901500
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0016003272901500
+      \endverb
+    \endentry
+    \entry{huo_kernel_modelling_2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bab3e2f6b80b927a6bc7748aacd1e514}{%
+           family={Huo},
+           familyi={H\bibinitperiod},
+           given={Yongkang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=66677975c45783e2c9b1cc87bd9dd409}{%
+           family={Chaffey},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0dfd29560d972684e45872242d7ebfb8}{%
+           family={Sepulchre},
+           familyi={S\bibinitperiod},
+           given={Rodolphe},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{fullhash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{fullhashraw}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{bibnamehash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{authorbibnamehash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{authornamehash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{authorfullhash}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \strng{authorfullhashraw}{60c28f2cb21b0190ec47f1a749f0e62b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Automatic Control}
+      \field{title}{Kernel Modelling of Fading Memory Systems}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/TAC.2025.3621991
+      \endverb
+      \keyw{Fading channels;Kernel;Hilbert space;Trajectory;Linear systems;Robustness;Machine learning;Aerospace electronics;Vectors;Training}
+    \endentry
+    \entry{Kulkarni2001}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=b1b2d6687beda440da6ea52c2250d70c}{%
+           family={Kulkarni},
+           familyi={K\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=009eac4d0f8a24d6696d40ae116330d1}{%
+           family={Safonov},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{fullhash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{fullhashraw}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{bibnamehash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{authorbibnamehash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{authornamehash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{authorfullhash}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \strng{authorfullhashraw}{e9319a57cb0fc2e02ba0eb8373dd0390}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is proved that stability multipliers such as Zames-Falb multipliers, Popov multipliers and RL/RC multipliers, known to preserve positivity of monotone memoryless nonlinearities, do not, in general, preserve their incremental positivity. Our result implies that stability results based on these multipliers should be interpreted with caution since without incremental positivity, continuity of the closed-loop system's input-output relation may not be assured.}
+      \field{booktitle}{Proceedings of the 40th {{IEEE Conference}} on {{Decision}} and {{Control}}}
+      \field{title}{Incremental Positivity Non-Preservation by Stability Multipliers}
+      \field{volume}{1}
+      \field{year}{2001}
+      \field{pages}{33\bibrangedash 38 vol.1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/CDC.2001.980064
+      \endverb
+      \verb{file}
+      \verb /Users/tom/Dropbox (Cambridge University)/control/Zotero attachments/Kulkarni/Kulkarni2001.pdf;/Users/tom/Dropbox (Cambridge University)/Zotero attachments/storage/2HPAWNNP/980064.html
+      \endverb
+      \keyw{closed-loop system,continuity,Convolution,feedback,Feedback,Fourier transforms,incremental positivity nonpreservation,input-output relation,integral quadratic constraint,nonlinear stability,Popov multipliers,RL/RC multipliers,Signal mapping,stability,stability analysis,Stability analysis,stability multipliers,Zames-Falb multipliers}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput

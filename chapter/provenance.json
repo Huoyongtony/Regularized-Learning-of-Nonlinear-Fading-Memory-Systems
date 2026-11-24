@@ -1,0 +1,43 @@
+{
+  "source": "Dissertation-minimal/thesis.tex",
+  "chapter": "4: Kernel Modelling and Identification of Ion Channels",
+  "chapter_content_sha256": "b75a54b1ac143a353123498ad95d93ebd392e26c37f69388d62d4e61cb384285",
+  "figures": {
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/scattering.png": "f65decb2ece298de3d61cef35128ef681d9a5e8cd8973e1ca28d6d0338f7b930",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/full.pdf": "e67011e13aaf44e3f81e621ee70512078bd90aec2c33d5d0818935cc8f5f1953",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/full_reg.pdf": "3594fa5886b6db3b0db8837259ceb10a9cfc5cb3a96b21300bad80064e46e3be",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/scatter_linear_dots.pdf": "c1c083b0c710bf63c42e28b1b11dea3e1f8b6fec488a4a277e5ed1f35273b96e",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/regularisation_comb_0.0625_Nonlinear_full.pdf": "19bc913503f17bbac6e54595572cc41c4fb3bded224f6726ed50ca8db97995de",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/scatter_simple.pdf": "852d30b03648d3d2f4806ef10035c2a8c0dc93f1dbe00c6e650b7fea210fd387",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/stepTrainSinTest_RBF.png": "e84cad316f562d3e86558a2f6f0193e32ff256fb87935e20cc43f1d13b95364c",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/stepTrainSinTest_GSK.png": "e0651af5ec75184e3278e154958595fabf24fa5546b13aa3dcebc7b764e038c5",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/sinTrainStepTest_RBF.png": "10cc9f87ce7d9582f40680a5780f3ab4a98edf5b6e56a33e7dc6503723cd95c4",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/sinTrainStepTest_GSK.png": "dbd85a545135596308512040b85a32c41925408c0fbbe5b2388d8d9b8921e971",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/ion_channel_K_open_loop.png": "d42e7d9b86684b81fee2233dd36435d4720d0b8ac200f9a9dbbca48559f998ff",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/ion_channel_Na_open_loop.png": "1d26a4d2323bbf4f5e9141da9b1160af01245890703ad684c3ec5fe3097d878c",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/HH_model_test2_summary.png": "8f50d46d6580c6cb6faa3cd3faf851cae9954c3ec87919a75af33b093cc0aba2",
+    "figures/03_Kernel_Modelling_and_Identification_of_Neuromorphic_Elements/codes/HH_model_test2_summary_input.png": "fd46329adf32a2c2599391827535c42fbd99fca8857c1f4c590349be0b43ab5c"
+  },
+  "bibliography_keys": [
+    "Gonon2022",
+    "Kulkarni2001",
+    "Sandberg1994",
+    "anderson_small-gain_1972",
+    "boyd_fading_1985",
+    "caponnetto_universal_2008",
+    "christmann_universal_2010",
+    "grigoryeva_echo_2018",
+    "hodgkin_quantitative_1952",
+    "huo_kernel_modelling_2024",
+    "maass_computational_2004",
+    "maass_neural_2000",
+    "matthews_identification_1994",
+    "micchelli_learning_2005",
+    "paulsen_introduction_2016",
+    "sepulchre_incremental_2022",
+    "sepulchre_spiking_2022",
+    "shamma_fading-memory_1993",
+    "van_waarde_kernel-based_2023"
+  ],
+  "notes": "Chapter body and figures preserved from the approved source. Standalone wrapper adds referenced HH equation and chapter bibliography; citation numbers may differ from the full dissertation."
+}

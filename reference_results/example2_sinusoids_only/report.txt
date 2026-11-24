@@ -1,0 +1,25 @@
+Example 2 with sinusoidal training inputs only
+
+Plant: 10/((s+1)(s+2)), with zero initial state.
+Inputs: 100 unit-amplitude zero-phase sinusoids, omega=exp(linspace(-1,3,100)) rad/s.
+Each pair uses the transformed history over [26,30] s and its target at 30 s.
+Weight: w(tau)=exp(tau/2), lambda=1, c^2=1. Kernel a=b=1. Gamma=14.8.
+Baseline: dt=0.002 s, 2001 history samples, trapezoidal quadrature.
+
+RKHS norm beta: 0.702419254485
+Full-history gain upper bound: 0.993370836164
+Exact continuous-history gain upper bound: 0.993370738671
+Independent RK4 maximum output discrepancy: 6.049e-11
+Independent RK4 gain upper bound: 0.993370836165
+
+Grid refinement: dt, full-history gain upper bound
+0.008000, 0.993372299188
+0.004000, 0.993371128675
+0.002000, 0.993370836164
+0.001000, 0.993370763044
+0.000500, 0.993370744764
+0.000250, 0.993370740195
+
+All checks passed. The conservative gain bound 0.994 is valid.
+The gain bound is below 1, so scattering recovers an incrementally passive model.
+The Nyquist points are evaluated from the same fitted model used for the bound.

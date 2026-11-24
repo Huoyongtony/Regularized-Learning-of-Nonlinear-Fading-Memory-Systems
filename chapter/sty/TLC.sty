@@ -1,0 +1,120 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{TLC}[2014/04/21]
+
+%\RequirePackage[nocompress]{cite}
+\RequirePackage{amsmath}
+\let\proof\relax
+\let\endproof\relax
+\RequirePackage{amsthm}
+\RequirePackage{amsfonts}
+\RequirePackage{thmtools}
+\RequirePackage{xcolor}
+\RequirePackage{pgfplots}
+\pgfplotsset{compat=1.12}
+
+\theoremstyle{definition}
+\declaretheorem[name=Definition,qed={$\lrcorner$}]{definition}
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{remark}
+\declaretheorem[name=Remark,qed={$\lrcorner$}]{remark}
+\declaretheorem[name=Example,qed={$\lrcorner$}]{example}
+\declaretheorem[name=Idea,qed={$\lrcorner$}]{idea}
+%\declaretheorem[name=Claim,qed={$\righthalfcup$}]{claim}
+\declaretheorem[name=Question,qed={$\lrcorner$}]{question}
+\declaretheorem[name=Conjecture,qed={$\lrcorner$}]{conjecture}
+
+% Change epsilon and theta to alternate styles
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\theta}{\vartheta}
+
+% Change Im and Re to Roman
+\renewcommand{\Im}{\operatorname{Im}}
+\renewcommand{\Re}{\operatorname{Re}}
+
+% Macro for the transpose of a matrix
+%\newcommand*{\tran}{\ensuremath^{\mkern-1.5mu\mathsf{T}}}
+\newcommand*{\tran}{\ensuremath^{\mkern-1.5mu\top}}
+
+% Macro for partial derivative
+\newcommand{\pd}[2]{\ensuremath\frac{\partial{#1}}{\partial{#2}}}
+
+% Macro for total derivative
+\newcommand{\td}[2]{\ensuremath\frac{\mathrm{d}{#1}}{\mathrm{d}{#2}}}
+
+% Macro for dt
+\newcommand{\dd}[1]{\ensuremath\; \mathrm{d}{#1}}
+
+% Macro for domain 
+\newcommand{\dom}[1]{\ensuremath\operatorname{dom}\left({#1}\right)}
+
+% Macro for delta_x
+\newcommand{\dx}{\ensuremath\delta_x}
+
+% Macro for delta_u
+\newcommand{\du}{\ensuremath\delta_u}
+
+% Macro for delta_w
+\newcommand{\dw}{\ensuremath\delta_w}
+
+% Macro for delta_z
+\newcommand{\dz}{\ensuremath\delta_z}
+
+% Macro for the adjugate matrix
+\newcommand*{\adj}{\mathrm{adj}\,}
+
+% Macro for reals 
+\newcommand*{\R}{\mathbb{R}}
+
+% Macro for complex plane
+\newcommand*{\C}{\mathbb{C}}
+
+% Macros for a behavior and its components
+\newcommand*{\B}{\mathcal{B}}
+\newcommand*{\T}{\mathbb{T}}
+\newcommand*{\W}{\mathbb{W}}
+
+% Macro for the adjugate matrix
+%\newcommand*{\adj}{\mathrm{adj}\,}
+
+% Macro for hyperbolic secant
+%\newcommand*{\sech}{\mathrm{sech}\,}
+
+% macro for saturation
+\newcommand{\sat}[1]{\ensuremath\mathrm{sat}\,({#1})}
+
+% macro for SRG 
+\newcommand{\srg}[2][]{\ensuremath\operatorname{SRG}_{\,#1}({#2})}
+
+% macro for describing function 
+\newcommand{\df}[1]{\ensuremath\mathrm{DF}\,({#1})}
+
+% macro for Nyquist diagram 
+\newcommand{\nyq}[1]{\ensuremath\text{Nyquist}\,({#1})}
+
+% macro for circ
+\newcommand{\Circ}[1]{\ensuremath\text{Circ}\,({#1})}
+
+% macro for arc_min
+\newcommand{\Arc}[1]{\ensuremath\text{Arc}_{\min}\,({#1})}
+
+% macro for arc_min
+\newcommand{\Poly}[1]{\ensuremath\text{Poly}\,({#1})}
+
+\newcommand{\hil}{\mathcal{H}}
+\newcommand{\Id}{{\mathrm{Id}}}
+
+% Macro for inner product
+\newcommand{\ip}[2]{\ensuremath\left\langle{#1}, {#2}\right\rangle}
+
+% Macro for norm
+\newcommand{\norm}[1]{\ensuremath\left\lVert{#1}\right\rVert}
+
+% Macro for the resolvent
+\newcommand*{\res}[1]{\ensuremath J_{#1}}
+
+\newcommand*{\gra}[1]{\ensuremath \operatorname{gra}\left({#1}\right)}
+

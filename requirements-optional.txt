@@ -1,0 +1,4 @@
+-r requirements.txt
+# Only needed for the legacy Example 2 audit and PDF-path extraction.
+reportlab
+pdfplumber

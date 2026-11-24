@@ -1,0 +1,4 @@
+# Preserve the published data checksum on every platform.
+Kernel_work/code/test2_input.txt -text
+# Keep the chapter source checksum stable across checkouts.
+chapter/chapter-content.tex text eol=lf

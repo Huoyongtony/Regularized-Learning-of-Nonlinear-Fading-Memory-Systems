@@ -1,0 +1,54 @@
+Example 4 numerical audit
+
+Reconstruction using the thesis's saturated lag and parameter recipe, and the saved code's scatter/kernel/history operations. The exact historical notebook state is not available.
+
+The table distinguishes the squared gain certificate from its square root.
+Case | beta^2 | squared bound (continuous mass) | gain bound | squared bound (discrete mass)
+printed_lambda_10_analytic | 9.466773024081 | 1.041345032649 | 1.020463146149 | 1.042200200757
+code_exponent_10_analytic | 9.485209114090 | 0.995946956979 | 0.997971420923 | 0.996854381479
+code_exponent_10_euler | 9.506429488603 | 0.998175096303 | 0.999087131487 | 0.999084550899
+normalized_unweighted_point_analytic | 6.956384582205 | 1.378216828293 | 1.173974798832 | 1.391276916441
+normalized_weighted_point_analytic | 0.820995077073 | 1.691721176914 | 1.300661822656 | 1.693262533339
+
+Independent RK4/analytic maximum state discrepancy: 1.395e-09
+Original-figure RMSE comparisons:
+{
+  "printed_lambda_10_analytic": 1.5206972793626756,
+  "code_exponent_10_analytic": 0.005939958024471407,
+  "code_exponent_10_euler": 0.03455083752798914,
+  "analytic_original_orange_rmse": 0.0006424013354970648,
+  "euler_original_orange_rmse": 0.04971071969374246
+}
+
+Continuous-history quadrature refinement:
+[
+  {
+    "quadrature_points": 1000,
+    "beta_squared": 9.49339379725541,
+    "c_squared_quadrature": 0.05000667984154283,
+    "squared_bound_continuous_mass": 0.9968063487118181,
+    "squared_bound_quadrature_mass": 0.996812690148445
+  },
+  {
+    "quadrature_points": 2000,
+    "beta_squared": 9.493485627865201,
+    "c_squared_quadrature": 0.05000166832345076,
+    "squared_bound_continuous_mass": 0.9968159909258463,
+    "squared_bound_quadrature_mass": 0.9968175747463165
+  },
+  {
+    "quadrature_points": 4000,
+    "beta_squared": 9.493508400079888,
+    "c_squared_quadrature": 0.05000041687438322,
+    "squared_bound_continuous_mass": 0.9968183820083883,
+    "squared_bound_quadrature_mass": 0.9968187777684342
+  }
+]
+
+If E_phys(u)=E_scaled(s*u)/s, equal input/output scaling cancels from the physical Lipschitz constant.
+If histories including their last sample are multiplied by w, the endpoint contribution is b*w(0)^2. The notebook's printed diagnostic omits this endpoint factor when w is normalized.
+The exact finite-delay quadrature certificate uses sum(w^2)*dt, which can exceed the continuous integral for an inclusive rectangular grid.
+
+Conclusion:
+For the unnormalized code weight exp(10*tau), the thesis parameter must be lambda=20 under w=exp(lambda*tau/2). The reproduced squared certificate is below 0.998, but 0.998 is a conservative bound rather than an exact equality. The printed lambda=10 convention does not pass this sufficient test at the stated gamma.
+The official reconstruction plot is verified_example4_response.pdf (and .png).
