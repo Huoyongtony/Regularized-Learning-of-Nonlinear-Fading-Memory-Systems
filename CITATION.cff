@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code in research, please cite the paper below."
+type: software
+title: "Kernel Modeling of Fading Memory Systems: Companion Code"
+authors:
+  - family-names: Huo
+    given-names: Yongkang
+  - family-names: Chaffey
+    given-names: Thomas
+  - family-names: Sepulchre
+    given-names: Rodolphe
+repository-code: "https://github.com/Huoyongtony/Regularized-Learning-of-Nonlinear-Fading-Memory-Systems"
+preferred-citation:
+  type: article
+  title: "Kernel Modeling of Fading Memory Systems"
+  authors:
+    - family-names: Huo
+      given-names: Yongkang
+    - family-names: Chaffey
+      given-names: Thomas
+    - family-names: Sepulchre
+      given-names: Rodolphe
+  journal: "IEEE Transactions on Automatic Control"
+  year: 2026
+  month: 3
+  volume: "71"
+  issue: "3"
+  start: 2046
+  end: 2052
+  doi: "10.1109/TAC.2025.3621991"
+  url: "https://ieeexplore.ieee.org/document/11204380"

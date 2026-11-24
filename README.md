@@ -1,21 +1,44 @@
-# Regularized Learning of Nonlinear Fading Memory Systems
+# Kernel Modeling of Fading Memory Systems
 
-Code and reproduction material for the kernel-learning examples in the
-dissertation. This update supplies the HH current file cited on page 50, its
-supporting Julia code, and the scripts used for the approved Example 2 and
-Example 4 corrections.
+Companion code for the paper **Kernel Modeling of Fading Memory Systems** by
+Yongkang Huo, Thomas Chaffey, and Rodolphe Sepulchre, and for the related
+dissertation chapter **Kernel Modelling and Identification of Ion Channels**.
 
-Read the complete chapter in [chapter/chapter.pdf](chapter/chapter.pdf).
-Its [LaTeX source, figures, bibliography, and build instructions](chapter/README.md)
-are included, together with a guide from each figure to the code below.
+**Paper:** [IEEE Xplore](https://ieeexplore.ieee.org/document/11204380) ·
+[Published PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11204380) ·
+[DOI](https://doi.org/10.1109/TAC.2025.3621991) ·
+[Open preprint](https://arxiv.org/abs/2403.11945)
+
+The original paper notebooks are
+[`kernel regression (linear) paper.ipynb`](<kernel regression (linear) paper.ipynb>)
+and
+[`kernel regression (non-linear) paper-final-cleanup.ipynb`](<kernel regression (non-linear) paper-final-cleanup.ipynb>).
+
+The dissertation materials extend the presentation with gain-scheduling kernels,
+ion-channel and HH experiments, detailed sampling tables, and reproduction
+scripts for the approved chapter corrections. Read the complete chapter in
+[chapter/chapter.pdf](chapter/chapter.pdf), with its
+[LaTeX source, figures, bibliography, build instructions, and figure-to-code guide](chapter/README.md).
+The saved HH current cited on dissertation page 50 is
+[`Kernel_work/code/test2_input.txt`](Kernel_work/code/test2_input.txt).
+Example numbers and correction labels below refer to the dissertation chapter.
+
+## Cite the paper
+
+Yongkang Huo, Thomas Chaffey, and Rodolphe Sepulchre, "Kernel Modeling of Fading
+Memory Systems," *IEEE Transactions on Automatic Control*, vol. 71, no. 3,
+pp. 2046–2052, March 2026. DOI:
+[10.1109/TAC.2025.3621991](https://doi.org/10.1109/TAC.2025.3621991).
+
+Citation files: [BibTeX](CITATION.bib) · [CITATION.cff](CITATION.cff).
 
 ## Contents
 
 | Experiment | Entry point |
 | --- | --- |
 | Complete chapter text, settings tables, figures, and references | [`chapter/chapter.pdf`](chapter/chapter.pdf) |
-| Original linear examples | `kernel regression (linear) paper.ipynb` |
-| Original nonlinear examples | `kernel regression (non-linear) paper-final-cleanup.ipynb` |
+| Paper: original linear examples | `kernel regression (linear) paper.ipynb` |
+| Paper: original nonlinear examples | `kernel regression (non-linear) paper-final-cleanup.ipynb` |
 | Gain-scheduling, ion channels, and HH exploratory work | `Kernel_work/code/kernel_learning_new.ipynb` |
 | HH closed-loop test with the saved current | `Kernel_work/code/reproduce_hh_saved_input.jl` |
 | Approved Example 2: sinusoidal-only passive linear fit | `Kernel_work2/codes/reproduce_example2_sinusoids.py` |
@@ -26,7 +49,7 @@ notebook has its source cells preserved, with embedded outputs and execution
 counts cleared to avoid a 90 MB file. It contains exploratory cells and depends
 on interactive execution order; use the HH script for the ordered closed-loop
 experiment. The corrected Python scripts take precedence over historical
-notebook settings for Examples 2 and 4.
+notebook settings for dissertation Examples 2 and 4.
 
 ## Saved HH current (page 50)
 
